@@ -1,0 +1,28 @@
+[
+    {
+        "user": {
+            "name": "User 1 name",
+            "avatar": "avatar_1"
+        },
+        "post": {
+            "location": "location 1",
+            "media": ["photo_1", "photo_2"],
+            "likes": {"count": 94, "likesByUsers": ["user_2", "user_3", "user_4"]},
+            "description": "Post description🚗✈️🚦 #something #something #something #something #something #something #something #something",
+            "time": "1613670361"
+        }
+    },
+    {
+        "user": {
+            "name": "User 2 name",
+            "avatar": "avatar_2"
+        },
+        "post": {
+            "location": "location 2",
+            "media": ["photo_3", "photo_4"],
+            "likes": {"count": 188, "likesByUsers": ["user_5", "user_6", "user_7"]},
+            "description": "Post description🚗✈️🚦 #something #something #something #something #something #something #something #something",
+            "time": "1613670311"
+        }
+    }
+]
