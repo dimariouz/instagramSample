@@ -8,11 +8,20 @@
 import UIKit
 
 final class TabBarController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        setupTabbarController()
     }
 
-
+    func setupTabbarController() {
+        navigationController?.navigationBar.isHidden = true
+        
+        let home = HomeView()
+        home.tabBarItem.image = UIImage(named: "home")
+        home.title = "Home"
+        viewControllers = [home]
+    }
+    
 }

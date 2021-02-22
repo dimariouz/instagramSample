@@ -6,7 +6,7 @@
         },
         "post": {
             "location": "location 1",
-            "media": ["photo_1", "photo_2"],
+            "media": ["photo_2", "photo_1"],
             "likes": {"count": 94, "likesByUsers": ["user_2", "user_3", "user_4"]},
             "description": "Post description🚗✈️🚦 #something #something #something #something #something #something #something #something",
             "time": "1613670361"
